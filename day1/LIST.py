@@ -47,5 +47,6 @@ name_list.sort()
 name_list2 = name_list[1:3]
 name_list2 = name_list[0:]
 name_list2 = name_list[:-1]  # 0-倒数第二个
+name_list2 = name_list[0:4:2]  # 切片的步长为2
 
 print name_list
