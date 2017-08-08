@@ -57,10 +57,12 @@ name_list.sort()
 # 列表切片(列表切片顾前不顾后)
 name_list2 = name_list[1:3]
 name_list2 = name_list[0:]
-name-list2 = name_list[-3:-1]
+name_list2 = name_list[-3:-1]
 name_list2 = name_list[:-1]  # 0-倒数第二个
 name_list2 = name_list[0:4:2]  # 切片的步长为2
 
-
+# 判断包含
+if "zhangsan" in name_list:
+    print "yes! zhangsan is in name_list"
 
 print name_list
