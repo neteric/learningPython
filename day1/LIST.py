@@ -14,8 +14,19 @@ name_list.append("Eric")
 # 统计列表中摸个元素的个数
 name_list.count("zhangsan")
 
-#?
-name_list.extend()
+# 列表扩展
+name_list.extend(name_list2)
+'''eg:
+>>> name_list = ['zhangsan','lisi']
+>>> name = "wanger"
+>>> name_list.extend(name)
+>>> name_list
+['zhangsan', 'lisi', 'w', 'a', 'n', 'g', 'e', 'r'] 字符串会看做字符列表去处理
+
+'''
+
+# 直接用"+" 完成列表扩展
+name_list + name_list2
 
 # 得到元素的索引
 print name_list.index("Beber")
@@ -46,7 +57,10 @@ name_list.sort()
 # 列表切片(列表切片顾前不顾后)
 name_list2 = name_list[1:3]
 name_list2 = name_list[0:]
+name-list2 = name_list[-3:-1]
 name_list2 = name_list[:-1]  # 0-倒数第二个
 name_list2 = name_list[0:4:2]  # 切片的步长为2
+
+
 
 print name_list
