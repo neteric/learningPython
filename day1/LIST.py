@@ -5,7 +5,7 @@
 name_list = ['zhangchao', 'Beber', 'Chunp']
 
 # 查询列表的所有方法
-print help(name_list )
+print help(name_list)
 print dir(name_list)
 
 # 列表追加（在列表尾追加）
