@@ -23,3 +23,4 @@ for x, y in enumerate(a,):
 for i in c:
     os.system("ceph-deploy osd prepare c[i]")
     os.system("ceph-deploy osd prepare c[i]")
+
